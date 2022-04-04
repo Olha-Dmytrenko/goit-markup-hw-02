@@ -1,6 +1,12 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+}
+
 .body {
   background-color: #e5e5e5;
-  color: #212121;
+  color: #757575;
 }
 
 /* Logo */
@@ -31,8 +37,23 @@
   color: #ffffff;
 }
 
+/* Button */
+.button-name {
+  color: #ffffff;
+}
+
 /* Section */
 .section-title {
+  color: #212121;
+}
+
+/* Features */
+.feature-list .title {
+  color: #212121;
+}
+
+/* Team */
+.team-list .title {
   color: #212121;
 }
 
