@@ -2,14 +2,16 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
+  --background-color: #e5e5e5;
+  --new-text-color: #ffffff;
 }
 
-.body {
-  background-color: #e5e5e5;
-  color: #757575;
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
 }
 
-/* Logo */
+/* Logo-header*/
 .logo-part-1 {
   color: #2196f3;
 }
@@ -18,7 +20,7 @@
 }
 
 /* List */
-.list {
+ul {
   list-style: none;
 }
 
@@ -44,12 +46,12 @@
 
 /* Hero */
 .hero-title {
-  color: #ffffff;
+  color: var(--new-text-color);
 }
 
 /* Button */
 .button-name {
-  color: #ffffff;
+  color: var(--new-text-color);
 }
 
 /* Section */
@@ -66,3 +68,5 @@
 .team-list .title {
   color: var(--title-text-color);
 }
+
+/* Logo-footer */
