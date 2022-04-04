@@ -2,21 +2,25 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
-  --background-color: #e5e5e5;
-  --new-text-color: #ffffff;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #2196f3;
+  --secondary-text-color: #ffffff;
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  font-family: 'Roboto';
 }
 
 /* Logo-header*/
-.logo-part-1 {
+.logo-header-1 {
   color: #2196f3;
+  text-decoration: none;
 }
-.logo-part-2 {
+.logo-header-2 {
   color: #000000;
+  text-decoration: none;
 }
 
 /* List */
@@ -27,6 +31,7 @@ ul {
 /* Site-nav */
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -37,6 +42,7 @@ ul {
 /* Auth-nav */
 .auth-nav .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .auth-nav .link:hover,
@@ -46,12 +52,17 @@ ul {
 
 /* Hero */
 .hero-title {
-  color: var(--new-text-color);
+  color: var(--secondary-text-color);
+}
+
+.hero {
+  background: #2f303a;
 }
 
 /* Button */
-.button-name {
-  color: var(--new-text-color);
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
 }
 
 /* Section */
@@ -64,9 +75,52 @@ ul {
   color: var(--title-text-color);
 }
 
+/* Examples of work */
+.work-list {
+}
+
 /* Team */
 .team-list .title {
   color: var(--title-text-color);
 }
 
 /* Logo-footer */
+.logo-footer-1 {
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-footer-2 {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Address */
+.contact-list .address-link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.contact-list .address-link:hover,
+.contact-list .address-link:focus {
+  color: var(--accent-text-color);
+}
+
+.contact-list .mail-link,
+.contact-list .tel-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.contact-list .mail-link:hover,
+.contact-list .mail-link:focus {
+  color: var(--accent-text-color);
+}
+
+.contact-list .tel-link:hover,
+.contact-list .tel-link:focus {
+  color: var(--accent-text-color);
+}
+
+.page-footer {
+  background: #2f303a;
+}
