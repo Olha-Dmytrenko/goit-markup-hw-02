@@ -3,7 +3,7 @@
   color: #212121;
 }
 
-/* logo */
+/* Logo */
 .logo-part-1 {
   color: #2196f3;
 }
@@ -11,12 +11,12 @@
   color: #000000;
 }
 
-/* list */
+/* List */
 .list {
   list-style: none;
 }
 
-/* site-nav */
+/* Site-nav */
 .site-nav .link {
   color: #212121;
 }
@@ -24,6 +24,16 @@
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
+}
+
+/* Hero */
+.hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+.section-title {
+  color: #212121;
 }
 
 /* колір заголовків чорний #212121; */
