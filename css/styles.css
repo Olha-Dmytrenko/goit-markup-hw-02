@@ -24,12 +24,22 @@
 
 /* Site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
+}
+
+/* Auth-nav */
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-text-color);
 }
 
 /* Hero */
@@ -44,33 +54,15 @@
 
 /* Section */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* Features */
 .feature-list .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* Team */
 .team-list .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
-
-/* колір заголовків чорний #212121; */
-
-/* колір текстів сірий #757575; */
-
-/* колір героя білий #FFFFFF; */
-
-/* колір студії блакитний #2196F3; мейлу в шапці блакитний #2196F3; */
-
-/* колір портфоліо, контактів у шапці чорний #212121;  */
-
-/* колір телефону в шапці сірий #757575; */
-
-/* колір лого у шапці чорний rgba (0, 0, 0, 0.25) блакитний #2196F3; */
-
-/* телефон і мейл у футері rgba(255, 255, 255, 0.6) */
-/* адреса у футері #FFFFFF */
-/* лого у футері білий #FFFFFF; і блакитний #2196F3; */ ;
