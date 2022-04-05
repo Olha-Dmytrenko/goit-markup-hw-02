@@ -14,11 +14,11 @@ body {
 }
 
 /* Logo-header*/
-.logo-header-1 {
+.logo-header-primary {
   color: #2196f3;
   text-decoration: none;
 }
-.logo-header-2 {
+.logo-header-secondary {
   color: #000000;
   text-decoration: none;
 }
@@ -36,6 +36,10 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-text-color);
 }
 
@@ -85,11 +89,11 @@ ul {
 }
 
 /* Logo-footer */
-.logo-footer-1 {
+.logo-footer-primary {
   color: #2196f3;
   text-decoration: none;
 }
-.logo-footer-2 {
+.logo-footer-secondary {
   color: #ffffff;
   text-decoration: none;
 }
