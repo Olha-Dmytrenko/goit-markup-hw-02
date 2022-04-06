@@ -10,7 +10,8 @@
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto';
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Logo-header*/
@@ -128,3 +129,5 @@ ul {
 .page-footer {
   background: #2f303a;
 }
+
+/* Styles for portfolio */
