@@ -14,14 +14,29 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Logo-header*/
+/* Header*/
+
+.logo-header {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+
 .logo-header-primary {
   color: #2196f3;
-  text-decoration: none;
 }
 .logo-header-secondary {
   color: #000000;
-  text-decoration: none;
 }
 
 /* List */
@@ -33,6 +48,10 @@ ul {
 .site-nav .link {
   color: var(--title-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -45,39 +64,113 @@ ul {
 }
 
 /* Auth-nav */
-.auth-nav .link {
-  color: var(--primary-text-color);
+.auth-nav .link-mail {
   text-decoration: none;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav .link-tel {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+}
+
+.auth-nav .link-mail:hover,
+.auth-nav .link-tel:hover,
+.auth-nav .link-mail:focus,
+.auth-nav .link-tel:focus {
   color: var(--accent-text-color);
 }
 
 /* Hero */
 .hero-title {
   color: var(--secondary-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 }
 
 .hero {
   background: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
 
 /* Button */
 .button {
   color: var(--secondary-text-color);
   background-color: var(--secondary-background-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* Section */
 .section-title {
   color: var(--title-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 /* Features */
 .feature-list .title {
   color: var(--title-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* Examples of work */
@@ -87,9 +180,26 @@ ul {
 /* Team */
 .team-list .title {
   color: var(--title-text-color);
+  width: 151px;
+  height: 19px;
+  left: 275px;
+  top: 1925px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-/* Logo-footer */
+/* Footer */
+
+.page-footer {
+  background: #2f303a;
+
+  /* Logo-footer */
+}
 .logo-footer-primary {
   color: #2196f3;
   text-decoration: none;
@@ -99,10 +209,11 @@ ul {
   text-decoration: none;
 }
 
-/* Address */
+/* Address-footer */
 .contact-list .address-link {
   color: var(--secondary-text-color);
   text-decoration: none;
+  font-style: normal;
 }
 
 .contact-list .address-link:hover,
@@ -114,6 +225,7 @@ ul {
 .contact-list .tel-link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
 }
 
 .contact-list .mail-link:hover,
@@ -124,10 +236,6 @@ ul {
 .contact-list .tel-link:hover,
 .contact-list .tel-link:focus {
   color: var(--accent-text-color);
-}
-
-.page-footer {
-  background: #2f303a;
 }
 
 /* Styles for portfolio */
